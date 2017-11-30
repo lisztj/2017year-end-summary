@@ -26,8 +26,7 @@
 <body>
     <div class="reveal">
         <div class="slides">
-            <section data-markdown="example.md">
-            </section>
+            <section data-markdown="example.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
         </div>
     </div>
 
@@ -40,6 +39,9 @@
         // - https://github.com/hakimel/reveal.js#dependencies
         Reveal.initialize({
             history: true,
+            markdown: {
+                smartypants: true
+            },
             dependencies: [{
                 src: 'plugin/markdown/marked.js'
             }, {

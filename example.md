@@ -1,5 +1,7 @@
 ## 2017 年终总结暨 2018 年计划
-<!-- #### [构建合格的 API Server & 一些值得关注的新技术](http://slides.maples7.com/2017-1.html) -->
+
+
+<!-- ####  -->
 <br />
 <p>
   <small><a target="_blank" href="#">演讲人：赵健</a></small><br />
@@ -7,16 +9,15 @@
 </p>
 
 
-
 ## 2017年度工作概述   
 
-- 智运通 <!-- .element: class="fragment" data-fragment-index="1" -->
-	- 落实到实现细节的 Node 实践，学到很多
+- 智运通(外接发货单/询价单，融云客服2.0升级，无车承运人迭代，接口标准化及JWT的登录验证，电子合同迭代等经历16次迭代) <!-- .element: class="fragment" data-fragment-index="1" -->
+	- 落实到实现细节的 angular+typescript 实践，学到很多
 <br /><br />
-- DC2016 / IF2017 <!-- .element: class="fragment" data-fragment-index="2" -->
-	- 自动化测试的重要性
+- 东风农机项目 <!-- .element: class="fragment" data-fragment-index="2" -->
+	- 询价，货物
 <br /><br />
-- DC <!-- .element: class="fragment" data-fragment-index="3" -->
+- csp微信版 <!-- .element: class="fragment" data-fragment-index="3" -->
 	- 项目起始进行合理架构和规划的重要性
 
 Note:
