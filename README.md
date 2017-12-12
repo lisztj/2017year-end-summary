@@ -38,6 +38,9 @@ Some reveal.js features, like external Markdown and speaker notes, require that 
 
 3. Install dependencies
    ```sh
+   推荐使用淘宝镜像 $ npm install -g cnpm --registry=https://registry.npm.taobao.org
+   $ cnpm install
+   或
    $ npm install
    ```
 
