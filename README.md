@@ -2,13 +2,17 @@
 2017年终总结
 
 
-# [reveal.js](https://github.com/hakimel/reveal.js.git) [![Build Status](https://travis-ci.org/hakimel/reveal.js.svg?branch=master)](https://travis-ci.org/hakimel/reveal.js) <a href="https://slides.com?ref=github"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
+# 自豪的采用 [reveal.js](https://github.com/hakimel/reveal.js.git) [![Build Status](https://travis-ci.org/hakimel/reveal.js.svg?branch=master)](https://travis-ci.org/hakimel/reveal.js) <a href="https://slides.com?ref=github"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
+
+推荐在mac下运行，打包发布，windows下有问题。。。
 
 A framework for easily creating beautiful presentations using HTML. [Check out the live demo](http://revealjs.com/).
 
 reveal.js comes with a broad range of features including [nested slides](https://github.com/hakimel/reveal.js#markup), [Markdown contents](https://github.com/hakimel/reveal.js#markdown), [PDF export](https://github.com/hakimel/reveal.js#pdf-export), [speaker notes](https://github.com/hakimel/reveal.js#speaker-notes) and a [JavaScript API](https://github.com/hakimel/reveal.js#api). There's also a fully featured visual editor and platform for sharing reveal.js presentations at [slides.com](https://slides.com?ref=github).
 
 ### Markdown
+
+使用markdown语法编写slides
 
 #### External Markdown
 
@@ -27,27 +31,24 @@ Some reveal.js features, like external Markdown and speaker notes, require that 
 
 1. Install [Node.js](http://nodejs.org/) (4.0.0 or later)
 
-1. Clone the reveal.js repository
+2. Clone the reveal.js repository
    ```sh
-   $ git clone https://github.com/hakimel/reveal.js.git
+   $ git clone https://github.com/lisztj/2017year-end-summary.git
    ```
 
-1. Navigate to the reveal.js folder
-   ```sh
-   $ cd reveal.js
-   ```
-
-1. Install dependencies
+3. Install dependencies
    ```sh
    $ npm install
    ```
 
-1. Serve the presentation and monitor source files for changes
+4. Serve the presentation and monitor source files for changes
    ```sh
    $ npm start
+   或者 $ grunt serve
+   打包发布 $ grunt package
    ```
 
-1. Open <http://localhost:8000> to view your presentation
+5. Open <http://localhost:8000> to view your presentation
 
    You can change the port by using `npm start -- --port=8001`.
 
